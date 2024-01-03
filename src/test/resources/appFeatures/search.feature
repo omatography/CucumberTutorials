@@ -1,5 +1,6 @@
 Feature: Search Feature
 
+  @Smoke @Regression
   Scenario: searching smartphone
     Given I have a search field in amazon
     When I search "Macbook" in search
